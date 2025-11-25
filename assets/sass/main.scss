@@ -163,11 +163,11 @@
 		}
 
 		&:hover {
-			color: #ed786a;
+			color: #8B6F47;
 			border-bottom-color: rgba(255, 255, 255, 0);
 
 			strong {
-				color: #ed786a;
+				color: #8B6F47;
 			}
 		}
 	}
@@ -558,7 +558,7 @@
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #8B6F47;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -582,11 +582,11 @@
 		}
 
 		&:hover {
-			background: #fd887a;
+			background: #A0826D;
 		}
 
 		&:active {
-			background: #ed786a;
+			background: #8B6F47;
 		}
 
 		&.alt {
@@ -682,7 +682,7 @@
 		h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #8B6F47;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -766,13 +766,13 @@
 
 				&.active > a:before,
 				&:hover > a:before {
-					background: #ED786A;
+					background: #8B6F47;
 					color: #fff;
 				}
 
 				&.active > a > span,
 				&:hover > a > span {
-					color: #ED786A;
+					color: #8B6F47;
 				}
 			}
 		}
@@ -840,7 +840,7 @@
 			&:hover {
 				> span, > a {
 					@include vendor('transition', ('color 0.25s ease-in-out', 'border-bottom-color 0.25s ease-in-out'));
-					color: #ed786a;
+					color: #8B6F47;
 				}
 			}
 		}
