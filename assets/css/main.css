@@ -1902,9 +1902,9 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		position: relative;
-		background: #fff;
+		background: linear-gradient(135deg, var(--primary-stone) 0%, var(--slate-gray) 100%);
 		text-align: center;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 	}
 
 		#header > .container {
@@ -1916,8 +1916,8 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
-			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+			color: #fff;
+			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.3);
 			font-size: 3em;
 			letter-spacing: 13px;
 		}
@@ -1929,7 +1929,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #666;
+			color: var(--text-light);
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -1960,15 +1960,15 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #555;
+				color: var(--text-secondary);
 				outline: 0;
 				display: block;
 			}
 
 				#nav > ul > li > a:before {
 					display: inline-block;
-					background: #878787;
-					color: #e4e4e4;
+					background: var(--earth-brown);
+					color: #fff;
 					width: 2.25em;
 					font-size: 0.8em;
 					height: 2.25em;
@@ -2098,17 +2098,15 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		overflow: hidden;
-		background: #fff;
-		color: #fff;
-		text-align: center;
-		border-top: solid 2px #e5e5e5;
-		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
-		position: relative;
-		text-transform: uppercase;
 		background: url("/images/banner.jpg");
 		background-size: cover;
+		background-position: center;
+		text-align: center;
+		border-top: solid 2px var(--earth-brown);
+		border-bottom: solid 2px var(--earth-brown);
+		box-shadow: inset 0px -8px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 8px 0px 0px rgba(0, 0, 0, 0.3);
+		position: relative;
+		text-transform: uppercase;
 		padding: 10em 0;
 	}
 
@@ -2119,10 +2117,13 @@ input, select, textarea {
 			letter-spacing: 4px;
 			text-align: center;
 			margin: 0;
+			color: #fff;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 		}
 
 		#banner strong {
-			color: inherit;
+			color: #fff;
+			font-weight: 700;
 		}
 
 		#banner > .container {
@@ -2158,7 +2159,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: var(--warm-sand);
 		padding: 6em 0;
 	}
 
@@ -2166,10 +2167,11 @@ input, select, textarea {
 
 	#content > section,
 	#content > article {
-		border-top: solid 2px #e5e5e5;
-		box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+		border-top: solid 2px var(--stone-gray);
+		box-shadow: inset 0px 8px 0px 0px var(--warm-sand), inset 0px 10px 0px 0px var(--stone-gray);
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
+		background: var(--light-stone);
 	}
 
 		#content > section:first-child,
@@ -2701,7 +2703,23 @@ input, select, textarea {
 					border-left: 0;
 	}
 
-}
+	}
+
+/* Color Variables for Professional Theme */
+	:root {
+		--primary-stone: #2c3e50;
+		--earth-brown: #8b6f47;
+		--slate-gray: #34495e;
+		--warm-sand: #f4e4c1;
+		--coral-accent: #ed786a;
+		--stone-gray: #95a5a6;
+		--earth-tan: #d4a574;
+		--dark-blue: #1a252f;
+		--light-stone: #ecf0f1;
+		--text-primary: #2c3e50;
+		--text-secondary: #34495e;
+		--text-light: #6c757d;
+	}
 
 /* Accessibility Enhancements */
 
@@ -2719,13 +2737,13 @@ input, select, textarea {
 
 /* Product Page Styles */
 
-	.category-card {
+		.category-card {
 		background: #ffffff;
-		border: 1px solid #e5e5e5;
+		border: 1px solid var(--stone-gray);
 		border-radius: 8px;
 		padding: 2em;
 		margin-bottom: 3em;
-		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+		box-shadow: 0 4px 15px rgba(44, 62, 80, 0.1);
 		transition: transform 0.3s ease, box-shadow 0.3s ease;
 	}
 
@@ -2742,13 +2760,13 @@ input, select, textarea {
 		}
 
 		.category-card header h2 {
-			color: #333;
+			color: var(--text-primary);
 			font-size: 1.8em;
 			margin-bottom: 0.5em;
 		}
 
 		.category-card header p {
-			color: #555;
+			color: var(--text-secondary);
 			font-size: 0.9em;
 			line-height: 1.6;
 		}
@@ -2757,15 +2775,16 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
-	.product-item {
+		.product-item {
 		background: #ffffff;
-		border: 1px solid #ddd;
+		border: 1px solid var(--stone-gray);
 		border-radius: 6px;
 		padding: 1.5em;
 		margin-bottom: 1.5em;
 		text-align: center;
 		transition: all 0.3s ease;
 		height: 100%;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 	}
 
 		.product-item:hover {
@@ -2774,14 +2793,14 @@ input, select, textarea {
 		}
 
 		.product-item h3 {
-			color: #333;
+			color: var(--text-primary);
 			font-size: 1.1em;
 			margin-bottom: 0.8em;
 			font-weight: 600;
 		}
 
 		.product-item p {
-			color: #555;
+			color: var(--text-secondary);
 			font-size: 0.85em;
 			line-height: 1.5;
 			margin: 0;
@@ -2795,18 +2814,21 @@ input, select, textarea {
 	}
 
 		.category-cta .button {
-			background: #ed786a;
+			background: linear-gradient(135deg, var(--coral-accent) 0%, var(--earth-brown) 100%);
 			color: #fff;
 			border: none;
 			padding: 0.8em 2em;
 			border-radius: 4px;
 			text-decoration: none;
 			font-weight: 600;
-			transition: background 0.3s ease;
+			transition: all 0.3s ease;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 		}
 
 		.category-cta .button:hover {
-			background: #d66658;
+			background: linear-gradient(135deg, var(--earth-brown) 0%, var(--coral-accent) 100%);
+			transform: translateY(-2px);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 		}
 
 /* Products Page Header Adjustment */
@@ -2835,9 +2857,9 @@ input, select, textarea {
 
 /* Breadcrumb Navigation */
 	.breadcrumb {
-		background: #f8f9fa;
+		background: var(--light-stone);
 		padding: 1em 0;
-		border-bottom: 1px solid #e5e5e5;
+		border-bottom: 1px solid var(--stone-gray);
 	}
 
 		.breadcrumb .container {
@@ -2847,7 +2869,7 @@ input, select, textarea {
 		}
 
 		.breadcrumb a {
-			color: #555;
+			color: var(--text-secondary);
 			text-decoration: none;
 			margin-right: 0.5em;
 		}
@@ -2858,10 +2880,10 @@ input, select, textarea {
 
 		.breadcrumb .separator {
 			margin-right: 0.5em;
-			color: #888;
+			color: var(--text-light);
 		}
 
 		.breadcrumb .current {
-			color: #ed786a;
+			color: var(--coral-accent);
 			font-weight: 600;
 		}
