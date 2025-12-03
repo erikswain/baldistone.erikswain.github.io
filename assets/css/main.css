@@ -1929,7 +1929,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: var(--text-light);
+			color: var(--text-secondary);
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -2722,8 +2722,8 @@ input, select, textarea {
 		--dark-blue: #1a252f;
 		--light-stone: #ecf0f1;
 		--text-primary: #2c3e50;
-		--text-secondary: #34495e;
-		--text-light: #6c757d;
+		--text-secondary: #2c3e50;
+		--text-light: #495057;
 	}
 
 /* Accessibility Enhancements */
@@ -2885,7 +2885,7 @@ input, select, textarea {
 
 		.breadcrumb .separator {
 			margin-right: 0.5em;
-			color: var(--text-light);
+			color: var(--text-secondary);
 		}
 
 		.breadcrumb .current {
