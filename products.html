@@ -9,19 +9,35 @@
 		<title>Our Products - Baldi Stone & Gravel</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Browse our complete inventory of quality aggregates: gravel, crushed stone, sand, fill materials, specialty products, and mulch. Serving Connecticut construction and landscaping projects." />
+		<meta name="keywords" content="gravel, crushed stone, sand, fill soil, specialty materials, mulch, Connecticut, construction aggregates" />
+		
+		<!-- Open Graph Tags -->
+		<meta property="og:title" content="Our Products - Baldi Stone & Gravel" />
+		<meta property="og:description" content="Browse our complete inventory of quality aggregates: gravel, crushed stone, sand, fill materials, specialty products, and mulch." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://baldistone.erikswain.github.io/products.html" />
+		<meta property="og:image" content="https://baldistone.erikswain.github.io/images/banner.jpg" />
+		
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	</head>
 	<body class="no-sidebar is-preload">
+		<a href="#main-content" class="skip-link">Skip to main content</a>
 		<div id="page-wrapper">
 
 			<!-- Header -->
+				<header>
 				<section id="header">
 					<div class="container">
 
 
 
 						<!-- Nav -->
-							<nav id="nav">
+							<nav id="nav" role="navigation" aria-label="Main navigation">
 								<ul>
 									<li><a class="icon solid fa-home" href="index.html"><span>Home</span></a></li>
 									<li class="active">
@@ -35,13 +51,23 @@
 											<li><a href="products.html#mulch">Mulch</a></li>
 										</ul>
 									</li>
-									<li><a class="icon solid fa-truck" href="#"><span>Our Services</span></a></li>
+									<li><a class="icon solid fa-truck" href="index.html#features"><span>Our Services</span></a></li>
 									<li><a class="icon solid fa-envelope" href="index.html#footer"><span>Contact Us</span></a></li>
 								</ul>
 							</nav>
 
 					</div>
 				</section>
+				</header>
+
+			<!-- Breadcrumb -->
+				<nav class="breadcrumb" aria-label="Breadcrumb navigation">
+					<div class="container">
+						<a href="index.html">Home</a>
+						<span class="separator">›</span>
+						<span class="current">Products</span>
+					</div>
+				</nav>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -53,7 +79,8 @@
 				</section>
 
 			<!-- Main -->
-				<section id="main">
+				<main>
+				<section id="main" id="main-content">
 					<div class="container">
 						<div id="content">
 
@@ -303,8 +330,10 @@
 						</div>
 					</div>
 				</section>
+				</main>
 
 			<!-- Footer -->
+				<footer>
 				<section id="footer">
 					<div class="container">
 						<header>
@@ -313,7 +342,7 @@
 						<div class="row">
 							<div class="col-6 col-12-medium">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="https://formspree.io/f/your-form-id">
 										<div class="row gtr-50">
 											<div class="col-6 col-12-small">
 												<input name="name" placeholder="Name" type="text" />
@@ -378,6 +407,7 @@
 						</ul>
 					</div>
 				</section>
+				</footer>
 
 		</div>
 

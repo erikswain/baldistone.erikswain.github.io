@@ -1930,7 +1930,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #888;
+			color: #666;
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -1961,7 +1961,7 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: #555;
 				outline: 0;
 				display: block;
 			}
@@ -2704,10 +2704,40 @@ input, select, textarea {
 
 }
 
+/* Accessibility Enhancements */
+
+	/* Enhanced focus indicators for keyboard navigation */
+	a:focus,
+	button:focus,
+	input:focus,
+	textarea:focus,
+	select:focus {
+		outline: 3px solid #ed786a;
+		outline-offset: 2px;
+	}
+
+	/* Skip navigation link */
+	.skip-link {
+		position: absolute;
+		top: -40px;
+		left: 6px;
+		background: #ed786a;
+		color: white;
+		padding: 8px;
+		text-decoration: none;
+		border-radius: 4px;
+		z-index: 1000;
+		transition: top 0.3s;
+	}
+
+	.skip-link:focus {
+		top: 6px;
+	}
+
 /* Product Page Styles */
 
 	.category-card {
-		background: #f8f9fa;
+		background: #ffffff;
 		border: 1px solid #e5e5e5;
 		border-radius: 8px;
 		padding: 2em;
@@ -2735,7 +2765,7 @@ input, select, textarea {
 		}
 
 		.category-card header p {
-			color: #666;
+			color: #555;
 			font-size: 0.9em;
 			line-height: 1.6;
 		}
@@ -2745,7 +2775,7 @@ input, select, textarea {
 	}
 
 	.product-item {
-		background: #fff;
+		background: #ffffff;
 		border: 1px solid #ddd;
 		border-radius: 6px;
 		padding: 1.5em;
@@ -2768,7 +2798,7 @@ input, select, textarea {
 		}
 
 		.product-item p {
-			color: #666;
+			color: #555;
 			font-size: 0.85em;
 			line-height: 1.5;
 			margin: 0;
@@ -2818,4 +2848,37 @@ input, select, textarea {
 		.no-sidebar #banner p {
 			color: rgba(255, 255, 255, 0.9);
 			font-size: 1.1em;
+		}
+
+/* Breadcrumb Navigation */
+	.breadcrumb {
+		background: #f8f9fa;
+		padding: 1em 0;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+		.breadcrumb .container {
+			display: flex;
+			align-items: center;
+			font-size: 0.9em;
+		}
+
+		.breadcrumb a {
+			color: #555;
+			text-decoration: none;
+			margin-right: 0.5em;
+		}
+
+			.breadcrumb a:hover {
+				color: #ed786a;
+			}
+
+		.breadcrumb .separator {
+			margin-right: 0.5em;
+			color: #888;
+		}
+
+		.breadcrumb .current {
+			color: #ed786a;
+			font-weight: 600;
 		}
