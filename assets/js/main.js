@@ -1,7 +1,6 @@
 /*
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Baldi Stone & Gravel Website
+	Quality Earth Materials Since 1987
 */
 
 (function($) {
