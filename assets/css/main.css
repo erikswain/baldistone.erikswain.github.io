@@ -1960,7 +1960,7 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: var(--text-secondary);
+				color: #ffffff;
 				outline: 0;
 				display: block;
 			}
@@ -1984,15 +1984,16 @@ input, select, textarea {
 					transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
 				}
 
-				#nav > ul > li > a > span {
-					-moz-transition: color 0.25s ease-in-out;
-					-webkit-transition: color 0.25s ease-in-out;
-					-o-transition: color 0.25s ease-in-out;
-					-ms-transition: color 0.25s ease-in-out;
-					transition: color 0.25s ease-in-out;
-					font-size: 0.85em;
-					letter-spacing: 3px;
-				}
+			#nav > ul > li > a > span {
+				-moz-transition: color 0.25s ease-in-out;
+				-webkit-transition: color 0.25s ease-in-out;
+				-o-transition: color 0.25s ease-in-out;
+				-ms-transition: color 0.25s ease-in-out;
+				transition: color 0.25s ease-in-out;
+				font-size: 0.85em;
+				letter-spacing: 3px;
+				color: #ffffff;
+			}
 
 			#nav > ul > li > ul {
 				display: none;
@@ -2006,7 +2007,7 @@ input, select, textarea {
 
 			#nav > ul > li.active > a > span,
 			#nav > ul > li:hover > a > span {
-				color: #ED786A;
+				color: #ffffff;
 			}
 
 	.dropotron {
