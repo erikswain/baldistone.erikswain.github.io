@@ -1,367 +1,399 @@
-<!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Strongly Typed by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baldi Stone & Gravel - Quality Earth Materials Since 1987</title>
+    <meta name="description" content="Baldi Stone & Gravel has been providing quality earth materials and related equipment services to Colchester and surrounding communities since 1987. Call (860)-537-4093 for pricing on all stone and gravel products.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Baldi Stone & Gravel</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="cta-button">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-			<!-- Header -->
-				<section id="header">
-					<div class="container">
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Quality Earth Materials Since 1987</h1>
+                <p>Providing quality stone and gravel products to Colchester and surrounding communities for over 35 years. Fast delivery, competitive pricing.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn-primary">View Products</a>
+                    <a href="#contact" class="btn-secondary">Get Quote</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <picture>
+                    <source srcset="assets/images/hero/IMG_4363-large.webp" media="(min-width: 1200px)" type="image/webp">
+                    <source srcset="assets/images/hero/IMG_4363-medium.webp" media="(min-width: 768px)" type="image/webp">
+                    <source srcset="assets/images/hero/IMG_4363-small.webp" type="image/webp">
+                    <source srcset="assets/images/hero/IMG_4363-large.jpg" media="(min-width: 1200px)">
+                    <source srcset="assets/images/hero/IMG_4363-medium.jpg" media="(min-width: 768px)">
+                    <source srcset="assets/images/hero/IMG_4363-small.jpg">
+                    <img src="assets/images/hero/IMG_4363-medium.jpg" alt="Baldi Stone & Gravel - Quality Earth Materials Since 1987" loading="eager" decoding="async">
+                </picture>
+            </div>
+        </section>
 
-						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Stone & Gravel</a></h1>
-							<p>A family owned business since 1987.</p>
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <p class="products-intro">Call (860)-537-4093 for pricing on all our quality earth materials</p>
+                
+                <div class="product-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="gravel">Processed Gravel</button>
+                        <button class="tab-button" data-tab="crushed">Crushed Stone</button>
+                        <button class="tab-button" data-tab="screened">Screened Materials</button>
+                        <button class="tab-button" data-tab="sands">Specialty Sands</button>
+                        <button class="tab-button" data-tab="specialty">Specialty Products</button>
+                        <button class="tab-button" data-tab="mulches">Mulches</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="gravel">
+                            <div class="product-list">
+                                <div class="product-item">
+                                    <h4>3/4" Processed Gravel</h4>
+                                    <p>Ideal for driveways and drainage applications</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>1-1/4" Processed Gravel</h4>
+                                    <p>Perfect for road base and heavy-duty applications</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="crushed">
+                            <div class="product-list">
+                                <div class="product-item">
+                                    <h4>3/8" Crushed Stone (Pea Stone)</h4>
+                                    <p>Small decorative stone for landscaping and drainage</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>3/4" Crushed Stone</h4>
+                                    <p>Versatile stone for driveways, drainage, and concrete</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>1-1/4" Crushed Stone</h4>
+                                    <p>Heavy-duty stone for road base and construction</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>2" Crushed Stone</h4>
+                                    <p>Large stone for drainage and erosion control</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>4"-6" Crushed Stone (Rip Rap)</h4>
+                                    <p>Large stone for shoreline protection and erosion control</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="screened">
+                            <div class="product-list">
+                                <div class="product-item">
+                                    <h4>Screened Fill</h4>
+                                    <p>Clean fill material for grading and leveling</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Screened Top Soil</h4>
+                                    <p>Premium topsoil for landscaping and gardening</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Screened Sand</h4>
+                                    <p>Clean sand for construction and landscaping</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="sands">
+                            <div class="product-list">
+                                <div class="product-item">
+                                    <h4>Septic Sand</h4>
+                                    <p>Specially graded sand for septic system installations</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Mason Sand (Pool Sand)</h4>
+                                    <p>Fine sand for masonry work and pool installations</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="specialty">
+                            <div class="product-list">
+                                <div class="product-item">
+                                    <h4>2" Minus Bank Run Gravel</h4>
+                                    <p>Natural gravel with fines for compaction</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Stone Dust</h4>
+                                    <p>Fine stone particles for paver base and leveling</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Gray Stone Dust</h4>
+                                    <p>Gray stone dust for specialized applications</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Asphalt Millings</h4>
+                                    <p>Recycled asphalt material for driveways and roads</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Tailings</h4>
+                                    <p>Byproduct material for fill and drainage</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="mulches">
+                            <div class="product-list">
+                                <div class="product-item">
+                                    <h4>Pine/Cedar Bark Mulch (Brown)</h4>
+                                    <p>Natural brown mulch for landscaping and gardens</p>
+                                </div>
+                                <div class="product-item">
+                                    <h4>Black Bark Mulch</h4>
+                                    <p>Black dyed mulch for dramatic landscape contrast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li><a class="icon solid fa-home" href="index.html"><span>Introduction</span></a></li>
-									<li>
-										<a href="#" class="icon fa-chart-bar"><span>Dropdown</span></a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a class="icon solid fa-cog" href="left-sidebar.html"><span>Left Sidebar</span></a></li>
-									<li><a class="icon solid fa-retweet" href="right-sidebar.html"><span>Right Sidebar</span></a></li>
-									<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>No Sidebar</span></a></li>
-								</ul>
-							</nav>
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <article class="service-item">
+                        <div class="service-image">
+                            <picture>
+                                <source srcset="assets/images/services/service-1.webp" type="image/webp">
+                                <source srcset="assets/images/services/service-1-large.jpg" media="(min-width: 768px)">
+                                <img src="assets/images/services/service-1-medium.jpg" alt="Earth and Gravel Materials" loading="lazy" decoding="async">
+                            </picture>
+                        </div>
+                        <h3>Earth & Gravel Materials</h3>
+                        <p>Quality stone and gravel products combined with superior equipment and labor work to meet and exceed expectations.</p>
+                    </article>
+                    
+                    <article class="service-item">
+                        <div class="service-image">
+                            <picture>
+                                <source srcset="assets/images/services/service-2.webp" type="image/webp">
+                                <source srcset="assets/images/services/service-2-large.jpg" media="(min-width: 768px)">
+                                <img src="assets/images/services/service-2-medium.jpg" alt="Driveway Installations" loading="lazy" decoding="async">
+                            </picture>
+                        </div>
+                        <h3>Driveway Installations</h3>
+                        <p>Professional driveway installation using quality materials for lasting results and curb appeal.</p>
+                    </article>
+                    
+                    <article class="service-item">
+                        <div class="service-image">
+                            <picture>
+                                <source srcset="assets/images/services/service-3.webp" type="image/webp">
+                                <source srcset="assets/images/services/service-3-large.jpg" media="(min-width: 768px)">
+                                <img src="assets/images/services/service-3-medium.jpg" alt="Site Excavation Work" loading="lazy" decoding="async">
+                            </picture>
+                        </div>
+                        <h3>Site Excavation Work</h3>
+                        <p>Complete site excavation services with proper equipment and experienced operators.</p>
+                    </article>
+                    
+                    <article class="service-item">
+                        <div class="service-image">
+                            <picture>
+                                <source srcset="assets/images/services/service-4.webp" type="image/webp">
+                                <source srcset="assets/images/services/service-4-large.jpg" media="(min-width: 768px)">
+                                <img src="assets/images/services/service-4-medium.jpg" alt="Equipment Services" loading="lazy" decoding="async">
+                            </picture>
+                        </div>
+                        <h3>Equipment & Labor Services</h3>
+                        <p>Superior equipment and labor services for all your earth material and construction needs.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-					</div>
-				</section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Baldi Stone & Gravel</h2>
+                        <p>Baldi Stone & Gravel has been providing quality earth materials and related equipment services to Colchester and surrounding communities since 1987. Our goal is to supply our valued customers with quality stone and gravel products combined with superior equipment and labor work to meet and exceed expectations.</p>
+                        <p>With over 35 years of experience, we pride ourselves on providing high-quality materials, competitive pricing, and exceptional customer service. Our team of experts is dedicated to helping you find the perfect materials for your project.</p>
+                        <p>Whether you're working on a small garden project or a large construction site, we have the materials and expertise to ensure your success.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>35+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1987</h3>
+                            <p>Established</p>
+                        </div>
+                        <div class="stat">
+                            <h3>CT</h3>
+                            <p>Local Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			<!-- Features -->
-				<section id="features">
-					<div class="container">
-						<header>
-							<h2>Gentlemen, behold! This is <strong>Strongly Typed</strong>!</h2>
-						</header>
-						<div class="row aln-center">
-							<div class="col-4 col-6-medium col-12-small">
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <h4>Address</h4>
+                            <p>72 Miller Rd<br>Colchester, CT 06415</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Phone</h4>
+                            <p>(860) 537-4093</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Email</h4>
+                            <p>richbaldi23@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Hours</h4>
+                            <p>Monday - Friday: 7:00 AM - 4:30 PM<br>Saturday: 7:00 AM - 1:00 PM<br>Sunday: Closed</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Facebook</h4>
+                            <p><a href="https://www.facebook.com/pages/Baldi-Stone-Gravel/166631506720072" target="_blank">Visit us on Facebook!</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Request a Quote</h3>
+                        <form action="https://formspree.io/f/xyzrjldy" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-								<!-- Feature -->
-									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-										<header>
-											<h3>Okay, so what is this?</h3>
-										</header>
-										<p>This is <strong>Strongly Typed</strong>, a free, fully responsive site template
-										by <a href="http://html5up.net">HTML5 UP</a>. Free for personal and commercial use under the
-										<a href="http://html5up.net/license">CCA 3.0 license</a>.</p>
-									</section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Baldi Stone & Gravel</h3>
+                    <p>Quality earth materials since 1987. Serving Colchester and surrounding communities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>72 Miller Rd<br>Colchester, CT 06415<br>(860) 537-4093<br>richbaldi23@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Baldi Stone & Gravel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
 
-								<!-- Feature -->
-									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Nice! What is HTML5 UP?</h3>
-										</header>
-										<p><a href="http://html5up.net">HTML5 UP</a> is a side project of <a href="http://twitter.com/ajlkn">AJ’s</a> (= me).
-										I started it as a way to both test my responsive tools and sharpen up my coding
-										and design skills a bit.</p>
-									</section>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
 
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
 
-								<!-- Feature -->
-									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>What's this built with?</h3>
-										</header>
-										<p><strong>Responsive Tools</strong> is a simple set of tools for building responsive
-										sites and apps. All of my templates at <a href="http://html5up.net">HTML5 UP</a> are built using these tools.</p>
-									</section>
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
 
-							</div>
-							<div class="col-12">
-								<ul class="actions">
-									<li><a href="#" class="button icon solid fa-file">Tell Me More</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
+        // Tab functionality for products
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabPanes = document.querySelectorAll('.tab-pane');
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="container">
-						<p>Use this space for <strong>profound thoughts</strong>.<br />
-						Or an enormous ad. Whatever.</p>
-					</div>
-				</section>
-
-			<!-- Main -->
-				<section id="main">
-					<div class="container">
-						<div class="row">
-
-							<!-- Content -->
-								<div id="content" class="col-8 col-12-medium">
-
-									<!-- Post -->
-										<article class="box post">
-											<header>
-												<h2><a href="#">I don’t want to say <strong>it’s the aliens</strong> ...<br />
-												but it’s the aliens.</a></h2>
-											</header>
-											<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>I mean isn't it possible?</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum eu malesuada in tristique.</p>
-											<ul class="actions">
-												<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
-											</ul>
-										</article>
-
-									<!-- Post -->
-										<article class="box post">
-											<header>
-												<h2><a href="#">By the way, many thanks to <strong>regularjane</strong>
-												for these awesome demo photos</a></h2>
-											</header>
-											<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>You should probably check out her work</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum malesuada.</p>
-											<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat
-											Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula
-											vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet
-											magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in,
-											tristique at erat. Curabitur leo nibh, rutrum eu malesuada in, tristique
-											at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna
-											tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat
-											magna tempus.</p>
-											<ul class="actions">
-												<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
-											</ul>
-										</article>
-
-								</div>
-
-							<!-- Sidebar -->
-								<div id="sidebar" class="col-4 col-12-medium">
-
-									<!-- Excerpts -->
-										<section>
-											<ul class="divided">
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 30</span>
-																<h3><a href="#">Just another post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 28</span>
-																<h3><a href="#">And another post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 24</span>
-																<h3><a href="#">One more post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-											</ul>
-										</section>
-
-									<!-- Highlights -->
-										<section>
-											<ul class="divided">
-												<li>
-
-													<!-- Highlight -->
-														<article class="box highlight">
-															<header>
-																<h3><a href="#">Something of note</a></h3>
-															</header>
-															<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
-															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
-																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
-															</ul>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Highlight -->
-														<article class="box highlight">
-															<header>
-																<h3><a href="#">Something of less note</a></h3>
-															</header>
-															<a href="#" class="image left"><img src="images/pic07.jpg" alt="" /></a>
-															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
-																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
-															</ul>
-														</article>
-
-												</li>
-											</ul>
-										</section>
-
-								</div>
-
-						</div>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<section id="footer">
-					<div class="container">
-						<header>
-							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<section>
-									<form method="post" action="#">
-										<div class="row gtr-50">
-											<div class="col-6 col-12-small">
-												<input name="name" placeholder="Name" type="text" />
-											</div>
-											<div class="col-6 col-12-small">
-												<input name="email" placeholder="Email" type="text" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message"></textarea>
-											</div>
-											<div class="col-12">
-												<a href="#" class="form-button-submit button icon solid fa-envelope">Send Message</a>
-											</div>
-										</div>
-									</form>
-								</section>
-							</div>
-							<div class="col-6 col-12-medium">
-								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
-									<div class="row">
-										<div class="col-6 col-12-small">
-											<ul class="icons">
-												<li class="icon solid fa-home">
-													1234 Somewhere Road<br />
-													Nashville, TN 00000<br />
-													USA
-												</li>
-												<li class="icon solid fa-phone">
-													(000) 000-0000
-												</li>
-												<li class="icon solid fa-envelope">
-													<a href="#">info@untitled.tld</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-6 col-12-small">
-											<ul class="icons">
-												<li class="icon brands fa-twitter">
-													<a href="#">@untitled</a>
-												</li>
-												<li class="icon brands fa-instagram">
-													<a href="#">instagram.com/untitled</a>
-												</li>
-												<li class="icon brands fa-dribbble">
-													<a href="#">dribbble.com/untitled</a>
-												</li>
-												<li class="icon brands fa-facebook-f">
-													<a href="#">facebook.com/untitled</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
-					<div id="copyright" class="container">
-						<ul class="links">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-				</section>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const targetTab = button.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and panes
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabPanes.forEach(pane => pane.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding pane
+                button.classList.add('active');
+                document.getElementById(targetTab).classList.add('active');
+            });
+        });
+    </script>
+</body>
 </html>
